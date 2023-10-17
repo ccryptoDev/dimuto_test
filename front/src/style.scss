@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Agrandir;
+  src: url("./assets/fonts/Agrandir-GrandHeavy.otf") format("opentype");
+}
+body *{
+  box-sizing: border-box;
+}
+.App{
+  width: 100%;
+  max-width: 1441px;
+  margin: 0 auto;
+  background: linear-gradient(0deg, #EEEEEA, #EEEEEA), linear-gradient(0deg, #FDFDFD, #FDFDFD), linear-gradient(0deg, #FFFFFF, #FFFFFF), #F0F5F8;
+}

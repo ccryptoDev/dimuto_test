@@ -1,0 +1,31 @@
+.header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 27px;
+  background: #FFFFFF;
+  z-index: 11;
+  position: relative;
+
+  .connect-btn{
+    width: 205px;
+    height: 40px;
+    border: 1.5px solid #707582;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #151414;
+    background: #FFFFFF;
+  }
+}
+.footer{
+  height: 100px;
+}
